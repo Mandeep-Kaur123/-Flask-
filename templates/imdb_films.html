@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IMDb Films</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:40px; color:#1E3A8A;">
+        IMDb Films
+    </h1>
+
+    <p style="text-align:center; width:80%; margin:auto; font-size:18px; line-height:1.6;">
+        This project demonstrates <b>Dynamic Web Scraping</b> using
+        <b>Selenium</b>. The scraper automatically opens the IMDb website,
+        collects the Top Rated Movies along with their ratings, and displays
+        the fetched data below.
+    </p>
+
+    <br><br>
+
+    <h2 style="text-align:center; color:#2563EB;">
+        Top IMDb Movies
+    </h2>
+
+    <table style="
+        width:80%;
+        margin:30px auto;
+        border-collapse:collapse;
+        font-size:18px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    ">
+
+        <tr style="background:#2563EB; color:white;">
+            <th style="padding:15px;">Movie Title</th>
+            <th style="padding:15px;">Rating</th>
+        </tr>
+
+        {% for movie in movies %}
+
+        <tr>
+            <td style="padding:12px; border:1px solid #ddd;">
+                {{ movie.title }}
+            </td>
+
+            <td style="padding:12px; border:1px solid #ddd; text-align:center;">
+                {{ movie.rating }}
+            </td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</body>
+
+</html>

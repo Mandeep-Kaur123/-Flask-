@@ -1,0 +1,412 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mandeep | Portfolio</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!--<header>  
+
+          <img src="../static/images/image.jpeg" class="image"/> 
+         <h1>Mandeep Kaur</h1>
+
+          <h3>B.Tech CSE (Artificial Intelligence) Student</h3> 
+    
+
+
+    </header> -->
+
+    <!--<header class="hero">
+
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Mandeep Kaur</span></h1>
+
+        <h3>B.Tech CSE (Artificial Intelligence) Student</h3>
+
+        <p>
+            Passionate about AI, Web Development, Flask, Python and Web Scraping.
+        </p>
+
+        <a href="#about" class="btn">Learn More</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/image.jpeg') }}" class="image">
+    </div>
+
+</header> 
+
+
+    <section id="about">
+
+        <h2>About Me</h2>
+        
+        <p>
+            Hi, I'm MandeepKaur, a B.Tech Computer Science (AI) student 
+            with a passion for technology and innovation. I enjoy building
+             practical projects, learning new skills, and solving real-world 
+             problems through programming. I'm always eager to grow as a developer
+              and create meaningful solutions.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>Contact</h2>
+
+        <ul>
+            <li>📞 +91-9468207102</li>
+            <li>📧 mandeepk09@gmail.com</li>
+            <li>📍 Haryana, India</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Education</h2>
+
+
+<div class="education">
+
+    <img src="../static/images/jmieti_logo.webp"> 
+
+    <div>
+        <h3>B.Tech in Computer Science (Artificial Intelligence)</h3>
+        <p>JMIETI, Radaur</p>
+        <p>2023 - 2027</p>
+    </div>    
+    
+
+    <div class="education">
+        <img src="../static/image/APS_logo.jfif">
+           <h3>Senior Secondary (Class XII)</h3>
+           <p>Anand Public School</p>
+           <p>2022 – 2023</p>
+    </div>
+
+<div class="education">
+    <img src="../static/image/APS_logo.jfif">
+       <h3>Secondary (Class X)</h3>
+       <p>Anand Public School</p>
+       <p>2020 – 2021</p>
+</div>
+
+<!--</div> -->
+
+    <!--<section>
+
+        <h2>Projects</h2>
+
+        <ul>
+            <li>Yahoo Finance Mutual Fund Dashboard</li>
+            <li>Cafe Management System</li>
+            <li>Assistant Master</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+        <span class="skill">Python</span>
+        <span class="skill">Flask</span>
+        <span class="skill">Machine Learning</span>
+        <span class="skill">Artificial Intelligence</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">C++</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Git & GitHub</span>
+
+    </div>
+
+    </section>
+
+    <section>
+
+        <h2>Achievements</h2>
+
+        <ul>
+            <li>Get Certificate of Advanced Excel Using AI</li>
+            <li>Get Certificate of Deep Learning from NIT Kurushetra</li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Experience</h2>
+
+        <p>
+            Fresher with hands-on experience in Python,
+            Flask Development,
+            Machine Learning,
+            and AI Projects.
+        </p>
+
+    </section>
+
+
+<!--<section>
+Education
+</section>
+
+<section>
+Skills
+</section>
+
+<section id="projects">
+My Projects
+</section>
+
+<section>
+Achievements
+</section>
+
+<section>
+Experience
+</section>
+
+<section>
+Social Media
+</section> -->
+
+<!-- <div class="learn-more">
+
+</div>
+
+</body>
+</html>
+
+    <section>
+
+        <h2>Social Media</h2>
+
+        <ul>
+            <li>GitHub : <ahref="https://github.https://www.linkedin.com/in/mandeep-kaur-1233a5321?utm_source=share_via&utm_content=profile&utm_medium=member_androidcom/Mandeep-Kaur123" target= "_blank"</a></li>
+            <li>LinkedIn : https://linkedin.com/in/yourprofile</li>
+            <li>Email : mandeepk09@gmail.com</li>
+        </ul>
+
+    </section>
+
+    
+            
+
+<div class="learn-more">
+    <a href="{{ url_for('learn_more') }}">
+        <button class="btn">Learn More</button>
+    </a>
+</div>
+</body>
+
+
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mandeep | Portfolio</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!--<header>  
+
+          <img src="../static/images/image.jpeg" class="image"/> 
+         <h1>Mandeep Kaur</h1>
+
+          <h3>B.Tech CSE (Artificial Intelligence) Student</h3> 
+    
+
+
+    </header> -->
+
+    <header class="hero">
+
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Mandeep Kaur</span></h1>
+
+        <h3>B.Tech CSE (Artificial Intelligence) Student</h3>
+
+        <p>
+            Passionate about AI, Web Development, Flask, Python and Web Scraping.
+        </p>
+
+        <a href="{{ url_for('learn_more') }}" class="btn">
+    Learn More
+</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/image.jpeg') }}" class="image">
+    </div>
+
+</header> 
+
+
+    <!--<section id="about">
+
+        <h2>About Me</h2>
+        
+        <p>
+            Hi, I'm MandeepKaur, a B.Tech Computer Science (AI) student 
+            with a passion for technology and innovation. I enjoy building
+             practical projects, learning new skills, and solving real-world 
+             problems through programming. I'm always eager to grow as a developer
+              and create meaningful solutions.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>Contact</h2>
+
+        <ul>
+            <li>📞 +91-9468207102</li>
+            <li>📧 mandeepk09@gmail.com</li>
+            <li>📍 Haryana, India</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Education</h2>
+
+
+<div class="education">
+
+    <img src="../static/images/jmieti_logo.webp"> 
+
+    <div>
+        <h3>B.Tech in Computer Science (Artificial Intelligence)</h3>
+        <p>JMIETI, Radaur</p>
+        <p>2023 - 2027</p>
+    </div>    
+    
+
+    <div class="education">
+        <img src="../static/image/APS_logo.jfif">
+           <h3>Senior Secondary (Class XII)</h3>
+           <p>Anand Public School</p>
+           <p>2022 – 2023</p>
+    </div>
+
+<div class="education">
+    <img src="../static/image/APS_logo.jfif">
+       <h3>Secondary (Class X)</h3>
+       <p>Anand Public School</p>
+       <p>2020 – 2021</p>
+</div>
+
+</div>
+
+    <section>
+
+        <h2>Projects</h2>
+
+        <ul>
+            <li>Yahoo Finance Mutual Fund Dashboard</li>
+            <li>Cafe Management System</li>
+            <li>Assistant Master</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+        <span class="skill">Python</span>
+        <span class="skill">Flask</span>
+        <span class="skill">Machine Learning</span>
+        <span class="skill">Artificial Intelligence</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">C++</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Git & GitHub</span>
+
+    </div>
+
+    </section>
+
+    <section>
+
+        <h2>Achievements</h2>
+
+        <ul>
+            <li>Get Certificate of Advanced Excel Using AI</li>
+            <li>Get Certificate of Deep Learning from NIT Kurushetra</li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Experience</h2>
+
+        <p>
+            Fresher with hands-on experience in Python,
+            Flask Development,
+            Machine Learning,
+            and AI Projects.
+        </p>
+
+    </section> -->
+
+
+
+<div class="learn-more">
+
+</div>
+
+</body>
+</html>
+
+    <!--<section>
+
+        <h2>Social Media</h2>
+
+        <ul>
+            <li>GitHub : <ahref="https://github.https://www.linkedin.com/in/mandeep-kaur-1233a5321?utm_source=share_via&utm_content=profile&utm_medium=member_androidcom/Mandeep-Kaur123" target= "_blank"</a></li>
+            <li>LinkedIn : https://linkedin.com/in/yourprofile</li>
+            <li>Email : mandeepk09@gmail.com</li>
+        </ul>
+
+    </section>-->
+
+    
+            
+
+<!--<div class="learn-more">
+    <a href="{{ url_for('learn_more') }}">
+        <button class="btn">Learn More</button>
+    </a>
+</div>-->
+</body>
+
+</html>

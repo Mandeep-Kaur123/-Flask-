@@ -1,0 +1,123 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Scrapping</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/webscrapping.css') }}">
+</head>
+
+<body>
+
+    <h1 class="heading">Web Scrapping</h1>
+
+    <div class="cards-container">
+
+        <a href="{{ url_for('static_scrapping') }}" class="card-link">
+            <div class="card">
+                <h2>Static Web Scrapping</h2>
+            </div>
+        </a>
+
+        <a href="{{ url_for('dynamic_scrapping') }}" class="card-link">
+            <div class="card">
+                <h2>Dynamic Web Scrapping</h2>
+            </div>
+        </a>
+
+        <a href="{{ url_for('api_scrapping') }}" class="card-link">
+            <div class="card">
+                <h2>API Scrapping</h2>
+            </div>
+        </a>
+
+    </div>
+
+</body>
+
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Scrapping</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/webscrapping.css') }}">
+</head>
+
+<body>
+
+    <!-- Heading -->
+    <h1 class="heading">Web Scrapping</h1>
+
+    <!-- Introduction -->
+    <section class="intro-section">
+
+        <h2>Introduction</h2>
+
+        <p>
+            Web Scraping is the process of automatically extracting data
+            from websites using Python. It helps collect information such as
+            product details, news articles, weather updates, job listings,
+            and many other types of online data. Popular Python libraries
+            used for web scraping include Requests, BeautifulSoup and Selenium.
+            The collected data can be stored in CSV, Excel, or databases for
+            further analysis and visualization.
+        </p>
+
+    </section>
+
+    <!-- Flowchart -->
+    <!--<section class="flowchart-section">
+
+        <h2>Web Scraping Process</h2>
+
+        <img src="{{ url_for('static', filename='images/webscraping_flowchart.png') }}"
+             alt="Web Scraping Flowchart"
+             class="flowchart">
+
+    </section>-->
+
+    <section class="flowchart-section">
+
+    <h2>Web Scraping Flowchart</h2>
+
+    <img src="{{ url_for('static', filename='images/webscraping_flowchart.png') }}"
+         alt="Web Scraping Flowchart"
+         class="flowchart">
+
+</section>
+
+    <!-- Cards -->
+    <div class="cards-container">
+
+        <a href="{{ url_for('static_scrapping') }}" class="card-link">
+            <div class="card">
+                <h2>Static Web Scrapping</h2>
+            </div>
+        </a>
+
+        <a href="{{ url_for('dynamic_projects') }}" class="card-link">
+            <div class="card">
+                <h2>Dynamic Web Scrapping</h2>
+            </div>
+        </a>
+
+        <a href="{{ url_for('api_projects') }}" class="card-link">
+            <div class="card">
+                <h2>API Scrapping</h2>
+            </div>
+        </a>
+
+    </div>
+
+</body>
+</html>

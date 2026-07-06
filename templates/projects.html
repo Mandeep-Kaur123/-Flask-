@@ -1,0 +1,101 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Projects</title>
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<h1 align="center">My Projects</h1>
+
+<div class="cards">
+
+    <div class="card">
+        <h2>Major Projects</h2>
+    </div>
+
+    <div class="card">
+        <h2>Minor Projects</h2>
+    </div>
+
+    <a href="{{ url_for('webscrapping') }}" class="card-link">
+    <div class="card">
+        <h2>Web Scrapping</h2>
+    </div>
+</a>>
+
+</div>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>My Projects</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/projects.css') }}">
+
+</head>
+
+<body>
+
+<h1 style="text-align:center;margin-top:40px;">
+    My Projects
+</h1>
+
+<div class="cards">
+
+    <a href="{{ url_for('minor_projects') }}" class="card-link">
+
+        <div class="card">
+
+            <h2>Minor Projects</h2>
+
+        </div>
+
+    </a>
+
+    <a href="{{ url_for('major_projects') }}" class="card-link">
+
+        <div class="card">
+
+            <h2>Major Projects</h2>
+
+        </div>
+
+    </a>
+
+    <a href="{{ url_for('webscrapping') }}" class="card-link">
+
+        <div class="card">
+
+            <h2>Web Scraping</h2>
+
+        </div>
+
+    </a>
+
+</div>
+
+<div class="learn-more">
+
+<a href="{{ url_for('learn_more') }}" class="btn">
+
+Back
+
+</a>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Dynamic Scraping Projects</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/api_projects.css') }}">
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Dynamic Scraping Projects</h1>
+
+<p>Explore Selenium based Dynamic Scraping Projects</p>
+
+</section>
+
+<div class="cards-container">
+
+<a href="{{ url_for('states_capital') }}" class="card-link">
+
+<div class="card">
+
+<div class="icon">🌍</div>
+
+<h2>States & Capitals</h2>
+
+<p>Dynamic scraping of Indian States and Capitals.</p>
+
+<button>View Project →</button>
+
+</div>
+
+</a>
+
+
+<a href="{{ url_for('dynamic_quotes') }}" class="card-link">
+
+<div class="card">
+
+<div class="icon">💬</div>
+
+<h2>Dynamic Quotes</h2>
+
+<p>Dynamic Quotes Scraping using Selenium.</p>
+
+<button>View Project →</button>
+
+</div>
+
+</a>
+
+
+<a href="{{ url_for('imdb_films') }}" class="card-link">
+
+<div class="card">
+
+<div class="icon">🎬</div>
+
+<h2>IMDb Films</h2>
+
+<p>Top Movies Scraping from IMDb.</p>
+
+<button>View Project →</button>
+
+</div>
+
+</a>
+
+
+<a href="{{ url_for('imdb_cartoons') }}" class="card-link">
+
+<div class="card">
+
+<div class="icon">🎭</div>
+
+<h2>IMDb Cartoons</h2>
+
+<p>Animated Movies Scraping.</p>
+
+<button>View Project →</button>
+
+</div>
+
+</a>
+
+
+<a href="{{ url_for('dynamic_books') }}" class="card-link">
+
+<div class="card">
+
+<div class="icon">📚</div>
+
+<h2>Book Data</h2>
+
+<p>Dynamic Book Information Scraping.</p>
+
+<button>View Project →</button>
+
+</div>
+
+</a>
+
+</div>
+
+</body>
+</html>

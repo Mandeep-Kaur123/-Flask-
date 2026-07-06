@@ -1,0 +1,227 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Learn More</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/learn_more.css') }}">
+</head>
+
+<body>
+
+    <h1 class="heading">Learn More About Me</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>📂 My Projects</h2>
+
+            <ul>
+                <li>Yahoo Finance Mutual Fund Dashboard</li>
+                <li>Cafe Management System</li>
+                <li>Assistant Master</li>
+            </ul>
+
+            
+
+<div class="card">
+    <h2>📂 My Projects</h2>
+
+    <ul>
+        <li>Yahoo Finance Mutual Fund Dashboard</li>
+        <li>Cafe Management System</li>
+        <li>Assistant Master</li>
+    </ul>
+
+    <a href="{{ url_for('projects') }}" class="btn">
+        View Projects
+    </a>
+</div>
+        </div>
+
+        <div class="card">
+            <h2>💻 My Skills</h2>
+
+            <ul>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>Machine Learning</li>
+                <li>Artificial Intelligence</li>
+                <li>HTML & CSS</li>
+                <li>SQL</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🏆 My Achievements</h2>
+
+            <ul>
+                <li>Advanced Excel Using AI Certificate</li>
+                <li>Deep Learning Certificate - NIT Kurukshetra</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>💼 My Experience</h2>
+
+            <p>
+                Fresher with hands-on experience in Python,
+                Flask, Machine Learning, Artificial Intelligence,
+                and Web Development projects.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="back">
+
+        <a href="{{ url_for('index') }}">
+            <button class="btn">⬅ Back to Home</button>
+        </a>
+
+    </div>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Learn More | Mandeep Kaur</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I'm <strong>Mandeep Kaur</strong>, a B.Tech Computer Science
+            (Artificial Intelligence) student with a passion for technology,
+            programming, and problem-solving. I enjoy developing web
+            applications, exploring Artificial Intelligence, and working on
+            real-world projects using Python and Flask.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="card">
+                <h3>Yahoo Finance Dashboard</h3>
+
+                <p>
+                    Developed a dashboard using Power BI to analyze
+                    Yahoo Finance Mutual Fund data.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Cafe Management System</h3>
+
+                <p>
+                    A Python-based application to manage café orders,
+                    billing, and customer records.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Assistant Master</h3>
+
+                <p>
+                    An AI-based assistant capable of performing
+                    basic automation tasks.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="card">
+
+            <h3>My Projects</h3>
+
+            <p>
+                Explore all my academic and personal projects,
+                including Minor, Major and Web Scraping Projects.
+            </p>
+
+            <a href="{{ url_for('projects') }}" class="btn">
+                View Projects
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section>
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <span class="skill">Python</span>
+            <span class="skill">Flask</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Artificial Intelligence</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Git & GitHub</span>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Achievements</h2>
+
+        <ul>
+
+            <li>Advanced Excel Using AI Certificate</li>
+
+            <li>Deep Learning Certification from NIT Kurukshetra</li>
+
+            <li>Completed multiple AI and Web Development projects</li>
+
+        </ul>
+
+    </section>
+
+    <div class="learn-more">
+
+        <a href="{{ url_for('index') }}" class="btn">
+            ← Back to Home
+        </a>
+
+    </div>
+
+</body>
+
+</html>
