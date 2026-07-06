@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+.heading{
+    text-align:center;
+    margin-top:40px;
+    color:#333;
+}
+
+.cards-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.card-link{
+    text-decoration:none;
+}
+
+.card{
+    width:250px;
+    height:180px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card h2{
+    color:#333;
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.heading{
+    text-align:center;
+    margin-top:40px;
+    color:#2563EB;
+}
+
+.intro-section{
+    width:80%;
+    margin:40px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.intro-section h2{
+    color:#1E3A8A;
+    margin-bottom:15px;
+}
+
+.intro-section p{
+    font-size:18px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+.flowchart-section{
+    width:80%;
+    margin:40px auto;
+    text-align:center;
+}
+
+.flowchart-section h2{
+    color:#1E3A8A;
+    margin-bottom:20px;
+}
+
+.flowchart{
+    width:100%;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.cards-container{
+    width:85%;
+    margin:50px auto;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.flowchart-section{
+    text-align:center;
+    margin:40px auto;
+}
+
+.flowchart{
+    width:80%;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.flowchart{
+    width:600px;
+    display:block;
+    margin:20px auto;
+}
